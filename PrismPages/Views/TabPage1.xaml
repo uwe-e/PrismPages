@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PrismPages.Views.TabPage1"
+             Title="Tab Page 1">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="To Contentpage1_1" Command="{Binding NavigateForwardCommand}"
+                HorizontalOptions="FillAndExpand" BackgroundColor="Blue"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
